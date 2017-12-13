@@ -20,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <input ref={this.reftext} defaultValue='fffffffffffffff' disabled style={{background:'#fff',border:0}}></input>
+        <input ref={this.reftext} defaultValue='fffffffffffffff' readOnly style={{background:'#fff',border:0}}></input>
         <input type="button" onClick={this.copyUrl2} value="点击复制代码" />
       </div>
     );
